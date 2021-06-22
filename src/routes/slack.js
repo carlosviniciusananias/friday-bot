@@ -3,6 +3,6 @@ const { hello } = require("../controllers/slack");
 
 const routes = express.Router();
 
-routes.post("/hello", hello);
+routes.post("/sextou", hello);
 
 module.exports = routes;
